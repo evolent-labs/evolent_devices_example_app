@@ -37,3 +37,7 @@ build. In `web`: `npm install` once, then `npm run build`. `npm run check` is th
 Outside the game, `npm run dev` in `web` shows the page: `os.hosted` is false and the page still draws. The SDK harness
 loads the built page in a host emulator (typing, intents, the published state, the watch view); see
 `evolent_devices/sdk/README.md`.
+
+## Licence
+
+MIT (`LICENSE`). The fonts in `web/public/fonts` are under the SIL Open Font License (the texts are next to them).

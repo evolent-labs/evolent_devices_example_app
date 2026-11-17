@@ -31,9 +31,9 @@ player devices.
 
 ## Build
 
-In `web`: `npm install` once, then `npm run build`. `npm run check` is the type check.
+In `web`, with [Bun](https://bun.sh): `bun install` once, then `bun run build`. `bun run check` is the type check.
 
-Outside the game, `npm run dev` in `web` shows the page: `os.hosted` is false and the page still draws. The SDK harness
+Outside the game, `bun run dev` in `web` shows the page: `os.hosted` is false and the page still draws. The SDK harness
 loads the built page in a host emulator (typing, intents, the published state, the watch view); see the
 [Apps guide](https://docs.evolent.dev/devices/Apps#sdk).
 
